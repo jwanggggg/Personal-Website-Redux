@@ -646,6 +646,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 100px;
 }
 
+#facts h1, h2, h3, h4, h5 {
+  color: black
+}
+
 /* Services Section
 --------------------------------*/
 #services {
@@ -818,6 +822,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #portfolio .portfolio-item img {
+  width:115%;
+  height:200px;
   position: relative;
   top: 0;
   transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
