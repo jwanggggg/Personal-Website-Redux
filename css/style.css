@@ -587,17 +587,63 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 80px 0 60px 0;
 }
 
-#facts .counters span {
-  font-size: 48px;
-  display: block;
-  color: #2dc997;
+#facts .background {
+  min-height: 350px;
+  background: url(../img/nyu.jpg) center top no-repeat;
+  background-size: 350px;
+  margin-bottom: 10px;
 }
 
-#facts .counters p {
-  padding: 0;
-  margin: 0 0 20px 0;
-  font-family: "Poppins", sans-serif;
+#facts p {
+  line-height: 26px;
+}
+
+#facts .about-container .icon-box {
+  float: left;
+  background-size: cover;
+  padding: 0 50px 0 200px;
+}
+
+#facts .about-container .icon-box .icon {
+  float: left;
+  background: #fff;
+  width: 64px;
+  height: 64px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 50%;
+  border: 2px solid #2dc997;
+}
+
+#facts .about-container .icon-box .icon i {
+  color: #2dc997;
+  font-size: 24px;
+}
+
+#facts .about-container .icon-box .title {
+  margin-left: 80px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+#facts .about-container .icon-box .title a {
+  color: #111;
+}
+
+#facts .about-container .icon-box .description {
+  margin-left: 80px;
+  line-height: 24px;
   font-size: 14px;
+}
+
+#facts .about-container .icon-box .smallIcon {
+  height: 50px;
+  width: 100px;
 }
 
 /* Services Section
