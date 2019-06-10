@@ -24,6 +24,11 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
+  <!-- JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -98,7 +103,7 @@
 
             <div class="icon-box wow fadeInUp">
                 <div class="icon"><i class="fa fa-file-text"></i></div>
-                <h4 class="title"><a href="https://www.youtube.com/channel/UC7PPJkFDYYPnGmwOWX3Y-tA" target="_blank">Resumé</a></h4>
+                <h4 class="title"><a href="img/Resume/Resume Jonathan Wang.pdf" target="_blank">Resumé</a></h4>
                 <p class="description">View my official resumé.</p>
               </div>
 
@@ -133,7 +138,6 @@
         </div>
       
         <div class="row about-container">
-
             <div class="col-lg-4 background order-lg-1 order-1 wow fadeInLeft"></div>
 
             <div class="col-lg-8 content order-lg-1 order-2">
@@ -144,14 +148,14 @@
               </div>
   
               <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
-                <h4>Major: Bachelor of Arts in Computer Science</h4>
-                <h4>Minor: Economics</h4>
-                <h4>Cumulative GPA: 3.40/4.00</h4>
+                <h4>Major: <div class="text">Bachelor of Arts in Computer Science</div> </h4>
+                <h4>Minor: <div class="text">Economics</div></h4>
+                <h4>Cumulative GPA: <div class="text">3.40/4.00</div></h4>
               </div>
   
               <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
-                <h5>Relevant Coursework: Data Structures, Basic Algorithms,
-                  Operating Systems, Open Source, Agile Development, Natural Language Processing, iOS Programming
+                <h5>Relevant Coursework: <div class="text">Data Structures, Basic Algorithms,
+                  Operating Systems, Open Source, Agile Development, Natural Language Processing, iOS Programming</div>
                 </h5>
               </div>
   
@@ -172,35 +176,39 @@
             <p class="section-description"></p>
           </div>
           <div class="row">
-            <div class="col-lg-3 col-md-6">
+            <div class="col-md-3 card">
               <div class="member">
                 <div class="pic"><img src="img/veevalogo.png" alt=""></div>
                 <h4>Veeva Systems</h4>
                 <span>Associate Software Engineer</span>
+                <span>July 2019 - Present</span>
               </div>
             </div>
   
-            <div class="col-lg-3 col-md-6">
+            <div class="col-md-3 card">
               <div class="member">
-                <div class="pic"><img src="img/nyucourant.png" alt=""></div>
+                <div class="pic"><img style="" src="img/nyucourant.png" alt=""></div>
                 <h4>New York University</h4>
                 <span>Computer Science Tutor</span>
+                <span>August 2018 - January 2019</span>
               </div>
             </div>
   
-            <div class="col-lg-3 col-md-6">
+            <div class="col-md-3 card">
               <div class="member">
                 <div class="pic"><img src="img/amnhBox.jpg" alt=""></div>
                 <h4>American Museum of Natural History</h4>
                 <span>Software Engineer Intern</span>
+                <span>June 2018 - August 2018</span>
               </div>
             </div>
   
-            <div class="col-lg-3 col-md-6">
-              <div class="member">
+            <div class="col-md-3 card">
+              <div class="member card-body">
                 <div class="pic"><img src="img/icbc.png" alt=""></div>
                 <h4>Industrial and Commercial Bank of China</h4>
                 <span>Software Developer Intern</span>
+                <span>June 2017 - August 2017</span>
               </div>
             </div>
           </div>
@@ -218,7 +226,7 @@
           <p class="section-description">My projects at a glance.</p>
         </div>
         <div class="row">
-
+          
           <div class="col-lg-12">
             <ul id="portfolio-flters">
               <li data-filter=".filter-app, .filter-card, .filter-logo, .filter-web" class="filter-active">All</li>
