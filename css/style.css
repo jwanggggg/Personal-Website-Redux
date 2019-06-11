@@ -925,6 +925,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 2px;
 }
 
+/* Modals */
+
+#modals h4, #modals h5, #modals p{
+  text-align:center
+}
 
 /*--------------------------------------------------------------
 # Footer

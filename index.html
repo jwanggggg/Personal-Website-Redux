@@ -178,7 +178,7 @@
           <div class="row">
             <div class="col-md-3 card">
               <div class="member">
-                <div class="pic"><img src="img/veevalogo.png" alt=""></div>
+                <div class="pic"><img src="img/veevalogo.png" data-toggle="modal" data-target="#VeevaModal"></div>
                 <h4>Veeva Systems</h4>
                 <span>Associate Software Engineer</span>
                 <span>July 2019 - Present</span>
@@ -187,7 +187,7 @@
   
             <div class="col-md-3 card">
               <div class="member">
-                <div class="pic"><img style="" src="img/nyucourant.png" alt=""></div>
+                <div class="pic"><img src="img/nyucourant.png" data-toggle="modal" data-target="#CourantModal"></div>
                 <h4>New York University</h4>
                 <span>Computer Science Tutor</span>
                 <span>August 2018 - January 2019</span>
@@ -196,7 +196,7 @@
   
             <div class="col-md-3 card">
               <div class="member">
-                <div class="pic"><img src="img/amnhBox.jpg" alt=""></div>
+                <div class="pic"><img src="img/amnhBox.jpg" data-toggle="modal" data-target="#AMNHModal"></div>
                 <h4>American Museum of Natural History</h4>
                 <span>Software Engineer Intern</span>
                 <span>June 2018 - August 2018</span>
@@ -204,8 +204,8 @@
             </div>
   
             <div class="col-md-3 card">
-              <div class="member card-body">
-                <div class="pic"><img src="img/icbc.png" alt=""></div>
+              <div class="member">
+                <div class="pic"><img src="img/icbc.png" data-toggle="modal" data-target="#ICBCModal"></div>
                 <h4>Industrial and Commercial Bank of China</h4>
                 <span>Software Developer Intern</span>
                 <span>June 2017 - August 2017</span>
@@ -361,6 +361,130 @@
   </footer><!-- #footer -->
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- Modals -->
+  <section id="modals">
+    <!-- Veeva Modal -->
+    <div class="modal fade" id="VeevaModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="NYUModalLabel">Veeva Systems</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+                <img src="img/veeva.jpg" style="width:100%">
+                
+                <h4>Associate Software Engineer</h4>
+                <h5>Veeva Vault Team</h5>
+                <h5>July 2019 - Present</h5>
+                <p>Veeva is a cloud-computing company specializing in developing
+                  pharmaceutical and life science applications. 
+                  I served on the Vault team, the cloud content management platform
+                  that develops and deploys these essential applications.
+                </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Veeva Modal -->
+
+    <!-- Courant Modal -->
+    <div class="modal fade" id="CourantModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg text-center" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="CourantModalLabel">NYU - Courant Institute of Mathematical Sciences</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="img/courantbanner.jpeg" class="img-responsive" style="width:100%;">
+              <h4>Computer Science Tutor</h4>
+              <h5>CS101 - Object Oriented Programming</h5>
+              <h5>August 2018 - January 2019</h5>
+              <p>Object-Oriented Programming provides the foundations for a vast
+                array of fields within Computer Science and is a requirement in the
+                tech industry today.</p>
+    
+              <p>As a CS101 tutor, I am passionate about
+                teaching these fundamental skills and enjoy working with students to
+                strengthen their grasp on the object-oriented paradigm and teach them
+                programming best practices in Java. Individually, I have tutored
+                over 125 unique students.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Courant Modal -->
+
+      <!-- AMNH Modal -->
+      <div class="modal fade" id="AMNHModal" tabindex="-1" role="dialog"  aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg text-center" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="AMNHModalLabel">American Museum of Natural History</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img src="img/amnhJob.jpg" class="img-responsive" style="width:100%">
+                <p>The American Museum of Natural History features interactive exhibits
+                  that allow museum-goers to interact with technology such as animations and
+                  video games.</p>
+                  
+                  <p>As an intern, I worked on the museum's latest interactive exhibits, The
+                  Ultimate Predator and Unseen Oceans. I used Java, Processing and Unity to
+                  create motion depth-sensing software for humans to interact with animals.</p>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <!-- End AMNH Modal -->
+
+        <!-- ICBC Modal -->
+        <div class="modal fade" id="ICBCModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg text-center" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="ICBCModalLabel">Industrial and Commercial Bank of China</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="img/icbcBuilding.jpg" class="img-responsive" style="width:75%">
+                    <p>In the summer of my sophomore year, I worked as an Information
+                    Technology Intern at ICBC New York. There, I refurbished the company
+                    website using HTML/CSS and JavaScript and also implemented a
+                    searchable employee directory using BootStrap.</p>
+        
+                    <p>Employees at ICBC are required to fill out daily financial reports.
+                    To assist them, I created Python scripts that automatically download,
+                    organize, and complete these forms for them.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+  </section>
+  </div>
 
   <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>
