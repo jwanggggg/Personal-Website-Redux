@@ -50,23 +50,6 @@
           <li><a href="#services">Education</a></li>
           <li><a href="#team">Work Experience</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
-          <li class="menu-has-children"><a href="">Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="menu-has-children"><a href="#">Drop Down 2</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li>
-            </ul>
-          </li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -78,7 +61,7 @@
   <section id="hero">
     <div class="hero-container">
       <h1>Jonathan Wang</h1>
-      <h2>Software Engineer and Musician based in California and NYC.</h2>
+      <h2>Software Engineer based in California and NYC.</h2>
       <a href="#about" class="btn-get-started">About Me</a>
     </div>
   </section><!-- #hero -->
@@ -239,83 +222,67 @@
 
         <div class="row" id="portfolio-wrapper">
           <div class="col-lg-3 col-md-6 portfolio-item filter-app">
-            <a href="">
-              <img src="img/portfolio/trex2.jpg" alt="">
-              <div class="details">
-                <h4>The Ultimate Predator</h4>
-                <span>Motion Detecting and Depth Sensing</span>
-              </div>
-            </a>
+            <img src="img/portfolio/trex2.jpg" data-toggle="modal" data-target="#TrexModal">
+            <div class="details">
+              <h4>The Ultimate Predator</h4>
+              <span>Motion Detecting and Depth Sensing</span>
+            </div>
           </div>
 
           <div class="col-lg-3 col-md-6 portfolio-item filter-app">
-            <a href="">
-              <img src="img/portfolio/amnhJob.jpg" alt="">
-              <div class="details">
-                <h4>Unseen Oceans</h4>
-                <span>Language Translations via Unity</span>
-              </div>
-            </a>
+            <img src="img/portfolio/amnhJob.jpg" data-toggle="modal" data-target="#OceansModal">
+            <div class="details">
+              <h4>Unseen Oceans</h4>
+              <span>Language Translations via Unity</span>
+            </div>
           </div>
 
           <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-            <a href="">
-              <img src="img/portfolio/card1.jpg" alt="">
-              <div class="details">
-                <h4>Sentiment Analyzer</h4>
-                <span>Suicide Prevention using Twitter Bots</span>
-              </div>
-            </a>
+            <img src="img/portfolio/card1.jpg" data-toggle="modal" data-target="#SentimentModal">
+            <div class="details">
+              <h4>Sentiment Analyzer</h4>
+              <span>Suicide Prevention using Twitter Bots</span>
+            </div>
           </div>
 
           <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-            <a href="">
-              <img src="img/portfolio/yelpLogo.png" alt="">
-              <div class="details">
-                <h4>Yelp Dataset Challenge</h4>
-                <span>Analyzing restauarant reviews on Yelp</span>
-              </div>
-            </a>
+            <img src="img/portfolio/yelpLogo.png" data-toggle="modal" data-target="#YelpModal">
+            <div class="details">
+              <h4>Yelp Dataset Challenge</h4>
+              <span>Analyzing restauarant reviews on Yelp</span>
+            </div>
           </div>
 
           <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-            <a href="">
-              <img src="img/portfolio/welcome_background.jpg" alt="">
-              <div class="details">
-                <h4>Instrument Exchange</h4>
-                <span>Web platform for trading instruments</span>
-              </div>
-            </a>
+            <img src="img/portfolio/welcome_background.jpg" data-toggle="modal" data-target="#InstrumentModal">
+            <div class="details">
+              <h4>Instrument Exchange</h4>
+              <span>Web platform for trading instruments</span>
+            </div>
           </div>
 
           <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
-            <a href="">
-              <img src="img/portfolio/brackets.png" alt="">
-              <div class="details">
-                <h4>Two-Pass Linker</h4>
-                <span>A linker for object files</span>
-              </div>
-            </a>
+            <img src="img/portfolio/brackets.png" data-toggle="modal" data-target="#CourseModal">
+            <div class="details">
+              <h4>Course Registration</h4>
+              <span>Course Registration System</span>
+            </div>
           </div>
 
           <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
-            <a href="">
-              <img src="img/portfolio/deadlock.jpg" alt="">
-              <div class="details">
-                <h4>Banker's Algorithm</h4>
-                <span>Deadlock detection algorithm</span>
-              </div>
-            </a>
+            <img src="img/portfolio/deadlock.jpg" data-toggle="modal" data-target="#BankersModal">
+            <div class="details">
+              <h4>Banker's Algorithm</h4>
+              <span>Deadlock detection algorithm</span>
+            </div>
           </div>
 
           <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
-            <a href="">
-              <img src="img/portfolio/newsInChunks.png" alt="">
-              <div class="details">
-                <h4>News in Chunks</h4>
-                <span>A Clean iOS News App</span>
-              </div>
-            </a>
+            <img src="img/portfolio/newsInChunks.png" data-toggle="modal" data-target="#NewsModal">
+            <div class="details">
+              <h4>News in Chunks</h4>
+              <span>A Clean iOS News App</span>
+            </div>
           </div>
 
         </div>
@@ -330,11 +297,12 @@
         <div class="container wow fadeIn">
           <div class="row">
             <div class="col-lg-9 text-center text-lg-left">
-              <h3 class="cta-title">Music</h3>
-              <p class="cta-text">Outside of development, my greatest passion is music.</p>
+              <h3 class="cta-title">Contact Me</h3>
+              <p class="cta-text">Email: jw4107@nyu.edu</p>
+              <p class="cta-text">Phone: 551-795-5735</p>
             </div>
             <div class="col-lg-3 cta-btn-container text-center">
-              <a class="cta-btn align-middle" href="#">View</a>
+              <a class="cta-btn align-middle" href="#">Back to Top</a>
             </div>
           </div>
   
@@ -427,61 +395,284 @@
       </div>
       <!-- End Courant Modal -->
 
-      <!-- AMNH Modal -->
-      <div class="modal fade" id="AMNHModal" tabindex="-1" role="dialog"  aria-hidden="true">
+    <!-- AMNH Modal -->
+    <div class="modal fade" id="AMNHModal" tabindex="-1" role="dialog"  aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg text-center" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="AMNHModalLabel">American Museum of Natural History</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="img/amnhJob.jpg" class="img-responsive" style="width:100%">
+              <p>The American Museum of Natural History features interactive exhibits
+                that allow museum-goers to interact with technology such as animations and
+                video games.</p>
+                
+                <p>As an intern, I worked on the museum's latest interactive exhibits, The
+                Ultimate Predator and Unseen Oceans. I used Java, Processing and Unity to
+                create motion depth-sensing software for humans to interact with animals.</p>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End AMNH Modal -->
+
+    <!-- ICBC Modal -->
+    <div class="modal fade" id="ICBCModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg text-center" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="ICBCModalLabel">Industrial and Commercial Bank of China</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="img/icbcBuilding.jpg" class="img-responsive" style="width:75%">
+                <p>In the summer of my sophomore year, I worked as an Information
+                Technology Intern at ICBC New York. There, I refurbished the company
+                website using HTML/CSS and JavaScript and also implemented a
+                searchable employee directory using BootStrap.</p>
+    
+                <p>Employees at ICBC are required to fill out daily financial reports.
+                To assist them, I created Python scripts that automatically download,
+                organize, and complete these forms for them.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End ICBC Modal -->
+
+      <!-- Portfolio Modals -->
+
+      <!-- T.Rex Modal -->
+      <div class="modal fade" id="TrexModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg text-center" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="TrexModalLabel">T.Rex: The Ultimate Predator</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="img/portfolio/trex.jpg" class="img-responsive" style="width:75%">
+                <p>AMNH's latest, most popular exhibit is T.Rex: The Ultimate Predator, an interactive
+                  exhibit focusing on the Prehistoric Era and the Tyrannosaurus Rex using Oculus Rift Virtual Reality headsets.
+                </p>
+    
+                <p>I implemented the depth-sensing technology required for animated dinosaurs on-screen to interact
+                  with humans, as well as many of the actions that they take, such as roaring, chasing humans, and interacting
+                  with other creatures.
+                </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End T.Rex Modal -->
+
+      <!-- Oceans Modal -->
+      <div class="modal fade" id="OceansModal" tabindex="-1" role="dialog" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered modal-lg text-center" role="document">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="AMNHModalLabel">American Museum of Natural History</h5>
+                <h5 class="modal-title" id="TrexModalLabel">Unseen Oceans</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
               </div>
               <div class="modal-body">
-                <img src="img/amnhJob.jpg" class="img-responsive" style="width:100%">
-                <p>The American Museum of Natural History features interactive exhibits
-                  that allow museum-goers to interact with technology such as animations and
-                  video games.</p>
-                  
-                  <p>As an intern, I worked on the museum's latest interactive exhibits, The
-                  Ultimate Predator and Unseen Oceans. I used Java, Processing and Unity to
-                  create motion depth-sensing software for humans to interact with animals.</p>
+                <img src="img/portfolio/amnhJob.jpg" class="img-responsive" style="width:75%">
+                  <p>Unseen Oceans is an interactive exhibit in AMNH. Using technology, it examines deep-sea life and 
+                    habitats in the inhospitable Mariana Trench thousands of feet beneath sea level.
+                  </p>
+      
+                  <p>I worked on the exhibit's arcade game that allows users to collect endangered coral samples
+                    in a submarine. I used Unity and C# to program aspects of the game including unit collision and 
+                    language translations.
+                  </p>
+              </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
               </div>
             </div>
           </div>
         </div>
-        </div>
-        <!-- End AMNH Modal -->
+        <!-- End Oceans Modal -->
 
-        <!-- ICBC Modal -->
-        <div class="modal fade" id="ICBCModal" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg text-center" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="ICBCModalLabel">Industrial and Commercial Bank of China</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  <img src="img/icbcBuilding.jpg" class="img-responsive" style="width:75%">
-                    <p>In the summer of my sophomore year, I worked as an Information
-                    Technology Intern at ICBC New York. There, I refurbished the company
-                    website using HTML/CSS and JavaScript and also implemented a
-                    searchable employee directory using BootStrap.</p>
-        
-                    <p>Employees at ICBC are required to fill out daily financial reports.
-                    To assist them, I created Python scripts that automatically download,
-                    organize, and complete these forms for them.</p>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-                </div>
+      <!-- Sentiment Modal -->
+      <div class="modal fade" id="SentimentModal" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg text-center" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="SentimentModalLabel">Sentiment Analyzer</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img src="img/portfolio/card1.jpg" class="img-responsive" style="width:75%">
+                  <p>Mental health is a rising issue in today's world, and many depressed people
+                    take to social media platforms to air out their frustrations and problems.
+                  </p>
+      
+                  <p>I created a bot in Java that scrapes tweets on a Twitter feed and analyzes their 
+                    sentiment to check for suicidal thoughts or tendencies to identify users that may
+                    be in danger and provide assistance to them.
+                  </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
               </div>
             </div>
           </div>
+        </div>
+        <!-- End Sentiment Modal -->
+
+      <!-- Yelp Modal -->
+      <div class="modal fade" id="YelpModal" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg text-center" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="YelpModalLabel">Yelp Dataset Challenge</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img src="img/portfolio/yelpLogo.png" class="img-responsive" style="width:75%">
+                  <p>Nearly all restaurants today have a Yelp page that allows users to leave reviews,
+                    comments and feedback about the businesses.
+                  </p>
+      
+                  <p>I participated in the Yelp Dataset Challenge and created a series of algorithms using Python that expanded
+                    upon Naïve Bayes' theorem and various other libraries to analyze the intent behind each review
+                    provide restaurants with useful feedback.
+                  </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Yelp Modal -->
+
+      <!-- Instrument Modal -->
+      <div class="modal fade" id="InstrumentModal" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg text-center" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="InstrumentLabel">Instrument Exchange</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img src="img/portfolio/welcome_background.jpg" class="img-responsive" style="width:75%">
+                  <p>Instrument Exchange is an online web platform where users can barter with one another
+                    for instruments, studio space, and other musical equipment. I worked extensively on the backend,
+                    using Express and Node to set up the authentication system, location services, and interaction
+                    between different user accounts.
+                  </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Instrument Modal -->
+
+      <!-- Course Modal -->
+      <div class="modal fade" id="CourseModal" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg text-center" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="CourseModalLabel">Course Registration System</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img src="img/portfolio/card1.jpg" class="img-responsive" style="width:75%">
+                  <p>A course registration system designed in Java.
+                  </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Course Modal -->
+
+      <!-- Bankers Modal -->
+      <div class="modal fade" id="BankersModal" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg text-center" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="BankersLabel">Banker's Algorithm</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img src="img/portfolio/card2.jpg" class="img-responsive" style="width:75%">
+                  <p>My implementation of Banker's Algorithm, an algorithm that prevents deadlocks
+                    in an operating system.
+                  </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Bankers Modal -->
+
+      <!-- News Modal -->
+      <div class="modal fade" id="NewsModal" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg text-center" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="NewsLabel">News in Chunks</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img src="img/portfolio/newsInChunksScreen1.png" class="img-responsive" style="height:15%">
+                  <p>News in Chunks is an iOS app created in Swift that brings a streamlined take on news;
+                    rather than browsing through clunky menus or UIs, the user sets their preferences then
+                    the app collects articles in chunks for the user to scroll through and read.
+                  </p>
+
+                  <p>
+                    I implemented the backend logic of the app, including scraping from news sources,
+                    the data structures behind holding the articles, and the UITableViewControllers.
+                  </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End News Modal -->
+
 
   </section>
   </div>
