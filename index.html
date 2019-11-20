@@ -127,6 +127,7 @@
 
               <div class="icon-box wow fadeInUp">
                   <h1>New York University</h1>
+                  <h2>College of Arts and Science</h2>
                   <h2>Class of 2019</h2>
               </div>
 
@@ -261,11 +262,11 @@
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
-            <img src="img/portfolio/brackets.png" data-toggle="modal" data-target="#CourseModal">
+          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
+            <img src="img/portfolio/vault.png" data-toggle="modal" data-target="#LCStateModal">
             <div class="details">
-              <h4>Course Registration</h4>
-              <span>Course Registration System</span>
+              <h4>Lookup to Lifecycle and State</h4>
+              <span>Asynchronous object interaction</span>
             </div>
           </div>
 
@@ -616,19 +617,24 @@
         </div>
         <!-- End Instrument Modal -->
 
-      <!-- Course Modal -->
-      <div class="modal fade" id="CourseModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <!-- LC/State Modal -->
+      <div class="modal fade" id="LCStateModal" tabindex="-1" role="dialog" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered modal-lg text-center" role="document">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="CourseModalLabel">Course Registration System</h5>
+                <h5 class="modal-title" id="LCStateModalLabel">Lookup to Lifecycle and State</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
               </div>
               <div class="modal-body">
-                <img src="img/portfolio/card1.jpg" class="img-responsive" style="width:75%">
-                  <p>A course registration system designed in Java.
+                <img src="img/portfolio/vault.png" class="img-responsive" style="width:75%">
+                  <p>Objects in Veeva's Vault platform implement lifecycles, which allow for useful operations
+                    such as tracking the state of a patient's prescription or drug's development.
+                    <br></br>
+                    I implemented the ability for objects to reference lifecycles and track/update their states 
+                    (e.g. Active, Needs Restocking, Completed) asynchronously, allowing multiple objects to track
+                    the status of one another.
                   </p>
               </div>
               <div class="modal-footer">
@@ -637,7 +643,7 @@
             </div>
           </div>
         </div>
-        <!-- End Course Modal -->
+        <!-- End LC/State Modal -->
 
       <!-- Bankers Modal -->
       <div class="modal fade" id="BankersModal" tabindex="-1" role="dialog" aria-hidden="true">

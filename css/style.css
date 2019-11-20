@@ -496,8 +496,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-container .background {
   min-height: 300px;
-  background: url(../img/portraitcopy.png) center top no-repeat;
-  background-size: 350px;
+  background: url(../img/portrait.jpg) center top no-repeat;
+  background-size: 325px;
   margin-bottom: 10px;
 }
 
