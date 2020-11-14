@@ -574,31 +574,31 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
-/* Facts Section
+/* Education Section
 --------------------------------*/
-#facts {
+#education {
   background: #f7f7f7;
   padding: 80px 0 60px 0;
 }
 
-#facts .background {
+#education .background {
   min-height: 350px;
   background: url(../img/nyu.jpg) center top no-repeat;
   background-size: 350px;
   margin-bottom: 10px;
 }
 
-#facts p {
+#education p {
   line-height: 26px;
 }
 
-#facts .about-container .icon-box {
+#education .about-container .icon-box {
   float: left;
   background-size: cover;
   padding: 0 50px 0 200px;
 }
 
-#facts .about-container .icon-box .icon {
+#education .about-container .icon-box .icon {
   float: left;
   background: #fff;
   width: 64px;
@@ -612,12 +612,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 2px solid #2dc997;
 }
 
-#facts .about-container .icon-box .icon i {
+#education .about-container .icon-box .icon i {
   color: #2dc997;
   font-size: 24px;
 }
 
-#facts .about-container .icon-box .title {
+#education .about-container .icon-box .title {
   margin-left: 80px;
   font-weight: 500;
   margin-bottom: 5px;
@@ -625,38 +625,38 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-transform: uppercase;
 }
 
-#facts .about-container .icon-box .title a {
+#education .about-container .icon-box .title a {
   color: #111;
 }
 
-#facts .about-container .icon-box .description {
+#education .about-container .icon-box .description {
   margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
 }
 
-#facts .about-container .icon-box .smallIcon {
+#education .about-container .icon-box .smallIcon {
   height: 50px;
   width: 100px;
 }
 
-#facts h1, h2, h3, h4, h5 {
+#education h1, h2, h3, h4, h5 {
   color: black
 }
 
-#facts .about-container .icon-box .text {
+#education .about-container .icon-box .text {
   font-weight: lighter
 }
 
-/* Services Section
+/* education Section
 --------------------------------*/
-#services {
+#education {
   background: #fff;
   background-size: cover;
   padding: 80px 0 60px 0;
 }
 
-#services .box {
+#education .box {
   padding: 50px 20px;
   margin-bottom: 50px;
   text-align: center;
@@ -666,7 +666,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #fafafa;
 }
 
-#services .icon {
+#education .icon {
   position: absolute;
   top: -36px;
   left: calc(50% - 36px);
@@ -683,40 +683,40 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #2dc997;
 }
 
-#services .icon a {
+#education .icon a {
   display: inline-block;
 }
 
-#services .icon i {
+#education .icon i {
   color: #fff;
   font-size: 24px;
 }
 
-#services .box:hover .icon {
+#education .box:hover .icon {
   background: #fff;
   border: 2px solid #2dc997;
 }
 
-#services .box:hover .icon i {
+#education .box:hover .icon i {
   color: #2dc997;
 }
 
-#services .box:hover .icon a {
+#education .box:hover .icon a {
   color: #2dc997;
 }
 
-#services .title {
+#education .title {
   font-weight: 700;
   font-size: 18px;
   margin-bottom: 15px;
   text-transform: uppercase;
 }
 
-#services .title a {
+#education .title a {
   color: #111;
 }
 
-#services .description {
+#education .description {
   font-size: 14px;
   line-height: 24px;
 }
